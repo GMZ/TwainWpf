@@ -1,0 +1,15 @@
+C:\_Chris\GitHub\TwainWpf\TwainWpf\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+C:\_Chris\GitHub\TwainWpf\TwainWpf\TestApp\obj\Debug\MainWindow.baml
+C:\_Chris\GitHub\TwainWpf\TwainWpf\TestApp\obj\Debug\MainWindow.g.cs
+C:\_Chris\GitHub\TwainWpf\TwainWpf\TestApp\obj\Debug\App.g.cs
+C:\_Chris\GitHub\TwainWpf\TwainWpf\TestApp\obj\Debug\TestApp_MarkupCompile.cache
+C:\_Chris\GitHub\TwainWpf\TwainWpf\TestApp\obj\Debug\TestApp.g.resources
+C:\_Chris\GitHub\TwainWpf\TwainWpf\TestApp\obj\Debug\TestApp.Properties.Resources.resources
+C:\_Chris\GitHub\TwainWpf\TwainWpf\TestApp\obj\Debug\TestApp.csproj.GenerateResource.Cache
+C:\_Chris\GitHub\TwainWpf\TwainWpf\TestApp\bin\Debug\TestApp.exe.config
+C:\_Chris\GitHub\TwainWpf\TwainWpf\TestApp\bin\Debug\TestApp.exe
+C:\_Chris\GitHub\TwainWpf\TwainWpf\TestApp\bin\Debug\TestApp.pdb
+C:\_Chris\GitHub\TwainWpf\TwainWpf\TestApp\bin\Debug\TwainWpf.dll
+C:\_Chris\GitHub\TwainWpf\TwainWpf\TestApp\bin\Debug\TwainWpf.pdb
+C:\_Chris\GitHub\TwainWpf\TwainWpf\TestApp\obj\Debug\TestApp.exe
+C:\_Chris\GitHub\TwainWpf\TwainWpf\TestApp\obj\Debug\TestApp.pdb
