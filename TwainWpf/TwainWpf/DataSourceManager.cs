@@ -1,7 +1,4 @@
 using System;
-using System.CodeDom;
-using System.Collections.Generic;
-using System.Drawing;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using TwainWpf.TwainNative;
@@ -80,11 +77,11 @@ namespace TwainWpf
                 _messageHook.UseFilter = true;
                 scanning = DataSource.Open(settings);
             }
-            catch (TwainException e)
+            catch (TwainException)
             {
                 DataSource.Close();
                 EndingScan();
-                throw e;
+                throw;
             }
             finally
             {
@@ -96,6 +93,7 @@ namespace TwainWpf
             }
         }
 
+        // ReSharper disable once RedundantAssignment
         protected IntPtr FilterMessage(IntPtr hwnd, int msg, IntPtr wParam, IntPtr lParam, ref bool handled)
         {
             if (DataSource.SourceId.Id == 0)
@@ -229,7 +227,7 @@ namespace TwainWpf
                         using (var renderer = new BitmapRenderer(hbitmap))
                         {
                             var args = new TransferImageEventArgs(renderer.RenderToBitmap(), pendingTransfer.Count != 0);
-                            TransferImage(this, args);
+                            if (TransferImage != null) TransferImage(this, args);
                             if (!args.ContinueScanning)
                                 break;
                         }
