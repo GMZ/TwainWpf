@@ -1,5 +1,0 @@
-C:\_Chris\GitHub\TwainWpf\TwainWpf\TwainWpf\obj\Debug\TwainWpf.csprojResolveAssemblyReference.cache
-C:\_Chris\GitHub\TwainWpf\TwainWpf\TwainWpf\bin\Debug\TwainWpf.dll
-C:\_Chris\GitHub\TwainWpf\TwainWpf\TwainWpf\bin\Debug\TwainWpf.pdb
-C:\_Chris\GitHub\TwainWpf\TwainWpf\TwainWpf\obj\Debug\TwainWpf.dll
-C:\_Chris\GitHub\TwainWpf\TwainWpf\TwainWpf\obj\Debug\TwainWpf.pdb
